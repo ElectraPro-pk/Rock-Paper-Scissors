@@ -37,7 +37,7 @@ const game = ()=> {
             
             compare_hands(this.textContent,computer_choice);
 
-            player_hand.src = `/assts/${this.textContent}.png`;
+            player_hand.src = `./assts/${this.textContent}.png`;
             computer_hand.src = `./assts/${computer_choice}.png`;
             },2000);
             
