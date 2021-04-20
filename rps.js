@@ -37,8 +37,8 @@ const game = ()=> {
             
             compare_hands(this.textContent,computer_choice);
 
-            player_hand.src = `https://electrapro-pk.github.io/Rock-Paper-Scissors/assts/${this.textContent}.png`;
-            computer_hand.src = `https://electrapro-pk.github.io/Rock-Paper-Scissors/assts/${computer_choice}.png`;
+            player_hand.src = `https://electrapro-pk.github.io/Rock-Paper-Scissors/assts/${this.textContent.toLowerCase()}.png`;
+            computer_hand.src = `https://electrapro-pk.github.io/Rock-Paper-Scissors/assts/${computer_choice.toLowerCase()}.png`;
             },2000);
             
             player_hand.style.animation = "shakeplayerhand 2s  linear";
